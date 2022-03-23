@@ -1,0 +1,133 @@
+body {
+  background-color: #EDF0F2;
+}
+.container {
+  background-color:#EDF0F2;
+  margin: 0 auto;
+  max-width: 1737px;
+  width: 90%;
+ }
+ header {
+   width: 98%;
+   margin: 0 auto;
+  
+ }
+ .logo {
+   max-width: 223.59px;
+   width: 100%;
+ }
+ .logo img {
+   width: 100%;
+ }
+ .main-menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+.main-nav {
+  max-width: 747px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ nav {
+   max-width: 438px;
+   width: 100%;
+
+ }
+ .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+ li {
+   color: #000;
+   font-size: 17px;
+   font-weight: 600;
+   text-transform: uppercase;
+   font-family: 'Teko', sans-serif;;
+  
+  
+ }
+ .divider {
+   background-color: black;
+   height: 37px;
+   width: 1px;
+
+ }
+ span {
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Teko', sans-serif;;
+
+ }
+ .survive {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .main-title {
+   max-width: 377px;
+   width: 100%;
+   height: 555px;
+   display: flex;
+   justify-content: left;
+   align-items: flex-start;
+   padding-top: 72px;
+   /* vertical-align: top; */
+
+ }
+ h4 {
+  color: #000;
+  font-size: 55px;
+  font-weight: 600;
+  text-transform: inherit;
+  font-family: 'Teko', sans-serif;;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  vertical-align: top;
+  margin-left: 23px;
+
+ }
+
+ .title {
+  color: #E4003B;
+  font-size: 176px;
+  font-weight: 600;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  line-height: 75%;
+  vertical-align: middle;
+  margin-left: 40px;
+ }
+ .mountain {
+   max-width: 1174px;
+   width: 100%;
+ }
+ .mountain img {
+   width: 100%;
+ }
+ .date:nth-child(1) {
+   font-size: 60px;
+   font-weight: bold;
+   font-family: 'Teko', sans-serif;
+   text-align: end;
+
+ }
+ .red-line {
+   background-color: #E4003B;
+   width: 70px;
+   height: 1px;
+   margin: 20px 0 38px;
+ }
+ .date:nth-child(n+2) {
+  text-align: end;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Teko', sans-serif;
+  margin-bottom: 36px;
+ }
+
