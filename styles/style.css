@@ -72,11 +72,11 @@ body {
  .main-title {
    max-width: 377px;
    width: 100%;
-   height: 555px;
+   /* height: 555px; */
    display: flex;
    justify-content: left;
    align-items: flex-start;
-   padding-top: 72px;
+   /* padding-top: 72px; */
    /* vertical-align: top; */
    
 
@@ -108,9 +108,19 @@ body {
  .mountain {
    max-width: 1174px;
    width: 100%;
+   position: relative;
  }
  .mountain img {
    width: 100%;
+ }
+ .btn-absolute {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 66px;
+   display: flex;
+   flex-direction: column;
+
  }
  .date:nth-child(1) {
    font-size: 60px;
@@ -135,13 +145,29 @@ body {
 
  .text {
   font-size: 14px;
+  font-weight: 600;
+  font-family: 'TT Lakes', sans-serif;
   color: #000;
-   max-width: 276px;
-   width: 100%;
+  max-width: 206px;
+  width: 100%;
+  float: right;
+  line-height: 154%;
+ }
+ .logos {
+   width: 19px;
+   height: 116px;
    display: flex;
-   justify-content: right;
-   align-items: flex-end;
-
+   flex-direction: column;
+   justify-content: space-between;
+   margin-left: 30px;
+   margin-top: 100px;
  }
 
+ .logos img {
+   /* width: 19px; */
+ }
+.logos-text {
+  display: flex;
+  justify-content: space-between;
+}
 
