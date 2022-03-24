@@ -78,6 +78,7 @@ body {
    align-items: flex-start;
    padding-top: 72px;
    /* vertical-align: top; */
+   
 
  }
  h4 {
@@ -102,6 +103,7 @@ body {
   line-height: 75%;
   vertical-align: middle;
   margin-left: 40px;
+ 
  }
  .mountain {
    max-width: 1174px;
@@ -130,4 +132,16 @@ body {
   font-family: 'Teko', sans-serif;
   margin-bottom: 36px;
  }
+
+ .text {
+  font-size: 14px;
+  color: #000;
+   max-width: 276px;
+   width: 100%;
+   display: flex;
+   justify-content: right;
+   align-items: flex-end;
+
+ }
+
 
